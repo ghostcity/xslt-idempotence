@@ -12,5 +12,5 @@ Nevertheless, the output might differ because of formatting/indentions.
 ### Shell (via [xsltproc](https://linux.die.net/man/1/xsltproc))
 
 ```bash
-~$ xsltproc idempotence.xslt example.xml
+xsltproc idempotence.xslt example.xml
 ```
