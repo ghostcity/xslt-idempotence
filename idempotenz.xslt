@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <xslt:transform
   version="1.0"
@@ -6,24 +6,24 @@
   >
 
 <!--
-  *** Basisregeln für die 7 Knotentypen von XPath ***
+  *** Basisregeln fÃ¼r die 7 Knotentypen von XPath ***
 
-  ÷ Wurzelknoten . . . . . . . . . [/]
-  ÷ Elementknoten² . . . . . . . . [*]
-  ÷ Textknoten². . . . . . . . . . [text()]
-  ÷ Attributknoten . . . . . . . . [attribute::*] [@*]
-  ÷ Namensraumknoten¹. . . . . . . [ NICHT MÖGLICH IN XSLT ]
-  ÷ Processing-Instruction-Knoten² [processing-instruction()]
-  ÷ Kommentarknoten² . . . . . . . [comment()]
+  Ã· Wurzelknoten . . . . . . . . . [/]
+  Ã· ElementknotenÂ² . . . . . . . . [*]
+  Ã· TextknotenÂ². . . . . . . . . . [text()]
+  Ã· Attributknoten . . . . . . . . [attribute::*] [@*]
+  Ã· NamensraumknotenÂ¹. . . . . . . [ NICHT MÃ–GLICH IN XSLT ]
+  Ã· Processing-Instruction-KnotenÂ² [processing-instruction()]
+  Ã· KommentarknotenÂ² . . . . . . . [comment()]
 
-  ¹ [...] There is no pattern that can match a namespace node;  so, the built-in
+  Â¹ [...] There is no pattern that can match a namespace node;  so, the built-in
     template rule is the only template rule that is applied for namespace nodes.
     [...]
                                        [http://www.w3.org/TR/xslt#built-in-rule]
-    Hm, komisch.  In XPath v1.0 hingegen existiert die Möglichkeit,  Namensraum-
+    Hm, komisch.  In XPath v1.0 hingegen existiert die MÃ¶glichkeit,  Namensraum-
     knoten zu benennnen ...
 
-  ² [node()] entspricht jedem Kindknoten (also allem außer Attributs-, Wurzel- &
+  Â² [node()] entspricht jedem Kindknoten (also allem auÃŸer Attributs-, Wurzel- &
     Namespace-Knoten)
 -->
 
